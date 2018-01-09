@@ -1,0 +1,6 @@
+model/*.*
+model/checkpoint
+__pycache__
+MNIST_data
+
+

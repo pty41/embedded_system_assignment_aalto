@@ -1,0 +1,34 @@
+image: python:3.6
+
+services:
+- docker:dind
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/pip-cache"
+
+before_script:
+  - pip install -q -r requirements.txt 
+
+cache:
+  paths:
+    - "$CI_PROJECT_DIR/pip-cache"
+  key: "$CI_PROJECT_ID"
+
+stages:
+    - test
+
+tests:
+  stage: test
+  image: python:3.6
+  script:
+   - cd /builds/gitlab/ESProject2017/self-driving-car
+  only:
+  - master
+  - development
+
+flake8:
+  stage: test
+  image: python:3.6
+  script:
+   - cd /builds/gitlab/ESProject2017/self-driving-car
+   - ls

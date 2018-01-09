@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SharePhoto</string>
+    <string name="app_info">SharePhoto by MCC g10 2017 \n v0.0.1</string>
+
+    <string name="sign_out_failed">Signing out failed for some reason!</string>
+    <string name="unknown_response">Unexpected onActivityResult response code</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="unknown_sign_in_response">Unknown response from AuthUI sign-in</string>
+    <string name="delete_account_failed">Deleting your account failed!</string>
+    <string name="token_fail">User ID token task failed!</string>
+    <string name="not_implemented">Not implemented yet!</string>
+
+    <string name="login_screen_txt">User Login Screen</string>
+    <string name="login_txt">Your login information:</string>
+    <string name="user_info_txt">Name and email:</string>
+
+    <string name="sign_in_btn">Sign In</string>
+    <string name="sign_out_btn">Sign Out</string>
+    <string name="delete_btn">Delete Account</string>
+    <string name="accept_photo_btn">Accept</string>
+    <string name="take_new_pic_btn">Take new picture</string>
+    <string name="to_menu_btn">Menu</string>
+    <string name="title_activity_app_settings">AppSettings</string>
+    <string name="select">SELECT</string>
+
+</resources>

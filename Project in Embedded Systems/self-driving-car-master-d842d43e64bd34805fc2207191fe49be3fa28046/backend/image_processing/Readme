@@ -1,0 +1,6 @@
+Step 1: Run Daemon
+python image_processing.py
+Step 2: Do training processing
+	python RPI_CALL.py Training <src_dst>
+		Do prediction processing
+	python RPI_CALL.py Prediction <src_dst>

@@ -1,0 +1,1 @@
+Temp file for preserving location of buffer folder for network handler.
