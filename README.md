@@ -1,4 +1,4 @@
-# 2017_2018_course_assignment
+# embedded system assignment - Aalto
 
 The course assignments of Embedded System major from 2017 to 2018 in Aalto University.
 
